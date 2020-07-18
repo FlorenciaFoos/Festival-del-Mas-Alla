@@ -2,6 +2,6 @@
 Proyecto realizado con HTML, CSS, Javascript. Uso de formulario y Bootstrap
 
 
-![Alt text](https://github.com/FlorenciaFoos/Festival-del-Mas-Alla/blob/master/Festival%20web/preview.jpg "1")
+![Alt text](https://github.com/FlorenciaFoos/Festival-del-Mas-Alla/blob/master/Festival%20web/1.jpg "1")
 
  
