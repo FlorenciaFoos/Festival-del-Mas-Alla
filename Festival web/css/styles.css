@@ -200,7 +200,7 @@ ol.numbered-list li:last-child {
   background-color: #f3b70f!important;
   color: black!important;
   border:none;
-  padding: 1.375rem 2.75rem!important;
+ 
   font-size: 22px!important;
   float: right;
   font-family: 'Darker Grotesque', sans-serif;
@@ -227,3 +227,4 @@ label{
 .card-title{
   font-size: 26px!important;
 }
+
