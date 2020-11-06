@@ -15,10 +15,10 @@
         rel="stylesheet">
 
 
-    <script src="./js/index.js"></script>
+
 </head>
 
-<body>
+<body id="body">
 
     <header>
 
@@ -33,7 +33,7 @@
             </ul>
         </nav>
 
-        <section class="divider">
+        <section class="division">
             <h2>Abrí los ojos<br>hacia lo<br>desconocido</h2>
         </section>
 
@@ -80,7 +80,7 @@
 
         <div class="invitados">
             <h2 class="textodadovuelta">Invitados </h2>
-            <ol class="numbered-list">
+            <ol class="lista">
 
                 <li>Básica TV (Uruguay)</li>
                 <li>Iratxe Goikoetxea (España)</li>
@@ -93,23 +93,24 @@
         </div>
     </section>
 
-    <section id="entradas" class="wrapper-flex">
+
+
+
+    <section id="entradas" class="contenedor_entradas">
         <div class="containercards">
             <div class='banner-img fondo1'></div>
-            <img src='https://images.unsplash.com/photo-1444011283387-7b0f76371f12?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
-                alt='profile image' class="profile-img">
-            <p class="name">Día 1</p>
-            <p class="description">Visuales y lecturas que cruzan la poesía y los gif animados, muestras de fotos
+
+            <p class="nombre">Día 1</p>
+            <p class="descripcion">Visuales y lecturas que cruzan la poesía y los gif animados, muestras de fotos
                 proyectadas con música en vivo. Participan: Camilo Mordechai</p>
             <button class='btn'> <a href="https://www.ticketek.com.ar/" target="_blank">comprar</a> </button>
         </div>
 
         <div class="containercards">
             <div class='banner-img fondo2'></div>
-            <img src='https://images.unsplash.com/photo-1444011283387-7b0f76371f12?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
-                alt='profile image' class="profile-img">
-            <p class="name">Día 2</p>
-            <p class="description">Lecturas de la intimidad, cruces de performances y poesía y talleres introspectivos +
+
+            <p class="nombre">Día 2</p>
+            <p class="descripcion">Lecturas de la intimidad, cruces de performances y poesía y talleres introspectivos +
                 Recital de Poesía de Latinoamerica. Participan: Inédito Pendrive
             </p>
             <button class='btn'> <a href="https://www.ticketek.com.ar/" target="_blank">comprar</a> </button>
@@ -117,10 +118,9 @@
 
         <div class="containercards">
             <div class='banner-img fondo3'></div>
-            <img src='https://images.unsplash.com/photo-1444011283387-7b0f76371f12?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
-                alt='profile image' class="profile-img">
-            <p class="name">Día 3</p>
-            <p class="description">Feria de plaquetas, lecturas, conciertos y acciones de propagación de la poesía con
+
+            <p class="nombre">Día 3</p>
+            <p class="descripcion">Feria de plaquetas, lecturas, conciertos y acciones de propagación de la poesía con
                 talleres de encuadernación y de creación de fanzines</p>
             <button class='btn'> <a href="https://www.ticketek.com.ar/" target="_blank">comprar</a> </button>
         </div>
@@ -131,18 +131,21 @@
 
     <footer id="contacto" class="footer">
 
-        <form action="#">
-            <input type="email" placeholder="Dejanos tu email">
-            <button type="submit">Subscribirme</button>
+        <form id="form_contacto" name="form1" action="#">
+            <input id="email" name="text1" type="email" placeholder="Dejanos tu email">
+            <button type="submit">Quiero más info</button>
         </form>
+        <div id="mensaje"></div>
         <p>También podes seguirnos en redes!</p>
-        <a href="https://www.facebook.com/CentroCulturalRecoleta/" target="_blank"><img
-                src="https://img.icons8.com/ios/50/000000/facebook.png" /></a>
+        <div>
+            <a href="https://www.facebook.com/CentroCulturalRecoleta/" target="_blank"><img
+                    src="https://img.icons8.com/ios/50/000000/facebook.png" /></a>
 
-        <a href="https://www.instagram.com/elrecoleta/" target="_blank"><img
-                src="https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
-
+            <a href="https://www.instagram.com/elrecoleta/" target="_blank"><img
+                    src="https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
+        </div>
     </footer>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
