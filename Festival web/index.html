@@ -15,10 +15,10 @@
         rel="stylesheet">
 
 
-    <script src="./js/index.js"></script>
+
 </head>
 
-<body>
+<body id="body">
 
     <header>
 
@@ -131,10 +131,14 @@
 
     <footer id="contacto" class="footer">
 
-        <form action="#">
-            <input type="email" placeholder="Dejanos tu email">
+
+        <form id="form_contacto" name="form1" action="#">
+            <input id="email" name="text1" type="email" placeholder="Dejanos tu email">
+
+
             <button type="submit">Quiero más info</button>
         </form>
+        <div id="mensaje"></div>
         <p>También podes seguirnos en redes!</p>
         <div>
             <a href="https://www.facebook.com/CentroCulturalRecoleta/" target="_blank"><img
@@ -144,6 +148,7 @@
                     src="https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
         </div>
     </footer>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
