@@ -2,9 +2,7 @@
   --yellow: #f3b70f;
   --black: #000;
   --white: #fff;
-  
-   
-  --font_secundaria: 'Darker Grotesque', sans-serif;
+
   --font_titulos: 'Roboto Condensed', sans-serif;
   --font_body: 'Lato', sans-serif;
 }
@@ -196,7 +194,7 @@ ol.numbered-list li:last-child {
 }
 
 .container {
-   padding: 8em;
+  padding: 2em 8em 0 8em;
  
   display: flex;
   flex-direction: column;
@@ -211,6 +209,7 @@ ol.numbered-list li:last-child {
 
 .invitados{
 align-self: center;
+display: flex; 
  
  
 }
@@ -362,9 +361,12 @@ h3{
  
 form{
   margin-top: 3em;
+  display: inline-flex;
 }
  
 form button{
+  font-family: var(--font_body);
+  font-weight: 300;
   background-color: var(--black);
   color: var(--white);
   border: none;
