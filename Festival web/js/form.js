@@ -14,7 +14,7 @@ formulario.addEventListener('submit', (event) => {
         console.log('ok')
 
         var pEmail = document.createElement("p")
-        pEmail.innerHTML = 'Ya estás suscripto!'
+        pEmail.innerHTML = '¡Ya estás suscripto!'
         mensaje.appendChild(pEmail)
         pEmail.classList.add('valido')
         document.querySelector("#email").value = ''
