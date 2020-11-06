@@ -57,8 +57,8 @@ nav ul {
 }
 
 nav li {
-  font-size: 16px;
-  color:var(--black);
+ 
+   
   margin: 25px 12.5px 25px 12.5px;
   display: inline-block;
 }
@@ -70,7 +70,7 @@ nav li a {
   font-weight: 700;
   letter-spacing: 2px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 16px;
 }
 
 header h1 {
@@ -89,10 +89,7 @@ header h1 {
   font-size: 18px;
 }
 
-.centered {
-  margin: 0 auto;
-  max-width: 724px;
-}
+
 
 header {
  
@@ -136,7 +133,7 @@ ul {
   padding: 0;
 }
 
-.divider h2 {
+.division h2 {
   margin-top: 141px;
   text-align: center;
   font-size: 100px;
@@ -169,12 +166,12 @@ ul {
   }
 }
 
-ol.numbered-list {
+ol.lista {
   list-style-type: none;
   margin-top: 50px;
 }
 
-ol.numbered-list li {
+ol.lista li {
   position: relative;
   left: 0px;
   list-style: none;
@@ -189,7 +186,7 @@ ol.numbered-list li {
   font-size: 22px;
 }
 
-ol.numbered-list li:last-child {
+ol.lista li:last-child {
   margin-bottom: 50px;
 }
 
@@ -210,7 +207,8 @@ ol.numbered-list li:last-child {
 .invitados{
 align-self: center;
 display: flex; 
- 
+margin-top: 3em;
+margin-bottom: 3em;
  
 }
 .textodadovuelta {
@@ -273,11 +271,11 @@ font-size: 22px !important;
 }
 
 
-.wrapper-flex {
+.contenedor_entradas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 3em;
+  margin-bottom: 6em;
 }
 
 .containercards {
@@ -315,18 +313,15 @@ font-size: 22px !important;
   background-image: url(https://images.pexels.com/photos/557782/pexels-photo-557782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-.profile-img {
-  width: 8rem;
-  
-  margin-top: 4.5rem;
-}
+ 
 
-.name {
+.nombre {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-top: 17.5rem;
 }
 
-.description {
+.descripcion {
   margin: 1rem 2rem;
   font-size: 0.9rem;
 }
