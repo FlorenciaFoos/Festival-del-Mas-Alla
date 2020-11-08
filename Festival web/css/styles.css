@@ -205,10 +205,9 @@ ol.lista li:last-child {
 
 
 .invitados{
-align-self: center;
-display: flex; 
-margin-top: 3em;
-margin-bottom: 3em;
+ 
+margin: 6em 0 6em 0;
+ 
  
 }
 .textodadovuelta {
@@ -286,8 +285,7 @@ font-size: 22px !important;
   border-radius: 1rem;
   position: relative;
   width: 280px;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin: 0 0 1rem 1rem;
   border: solid 1px black;
 }
 
