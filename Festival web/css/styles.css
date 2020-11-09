@@ -2,7 +2,6 @@
   --yellow: #f3b70f;
   --black: #000;
   --white: #fff;
-
   --font_titulos: 'Roboto Condensed', sans-serif;
   --font_body: 'Lato', sans-serif;
 }
@@ -96,19 +95,10 @@ header {
   text-align: center;
   position: relative;
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-attachment: fixed;
   position: relative;
   background-color: var(--yellow);
@@ -273,11 +263,12 @@ font-size: 22px !important;
 .contenedor_entradas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+ 
   margin-bottom: 6em;
+  place-content: space-evenly;
 }
 
-.containercards {
+.entrada_individual {
   overflow: hidden;
   box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
   background-color: white;
@@ -291,7 +282,6 @@ font-size: 22px !important;
 
 .banner-img {
   position: absolute;
-  
   height: 16rem;
   width: 100%;
   background-position: center;
@@ -396,7 +386,7 @@ input[type=email]{
 }
 
 
-@media only screen and (max-width: 700px){
+@media screen and (max-width: 700px){
 
 .division h2{
   font-size: 82px;
@@ -404,7 +394,7 @@ input[type=email]{
 
 }
 
-@media only screen and (max-width: 533px){
+@media screen and (max-width: 533px){
 
   .division h2{
     font-size: 60px;
@@ -416,7 +406,7 @@ input[type=email]{
   }
 
 
-  @media only screen and (max-width: 451px){
+  @media  screen and (max-width: 451px){
 
   
     form {
