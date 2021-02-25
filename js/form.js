@@ -1,5 +1,5 @@
 var formulario = document.querySelector("#form_contacto")
-var mensaje = document.querySelector("#mensaje")
+var message = document.querySelector("#message")
 
 
 
@@ -15,14 +15,13 @@ formulario.addEventListener('submit', (event) => {
 
         var pEmail = document.createElement("p")
         pEmail.innerHTML = '¡Ya estás suscripto!'
-        mensaje.appendChild(pEmail)
+        message.appendChild(pEmail)
         pEmail.classList.add('valido')
         document.querySelector("#email").value = ''
-    }
-    else {
+    } else {
         var pEmail = document.createElement("p")
         pEmail.innerHTML = 'Por favor ingresá un email válido'
-        mensaje.appendChild(pEmail)
+        message.appendChild(pEmail)
         pEmail.classList.add('invalido')
         document.querySelector("#email").value = ''
     }
